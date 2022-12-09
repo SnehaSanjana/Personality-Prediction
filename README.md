@@ -21,7 +21,7 @@ Personality prediction plays a major role in defining a candidate, his attitude,
 
 7. Sklearn : It features various classification, regression, and clustering algorithms. We used sklearn to make the model learn on various characteristic values using logical regression. 
 
-#Algorithms
+# Algorithms
 The algorithm used for this study uses a person's gender, age, openness, conscientiousness, extraversion, agreeableness, neuroticism, and experience scores to predict their personality. On the result page, it displays all the information from the entered data and uploaded resume after parsing all the CV/resume data. 
 
 In this system, the model is trained using logistic regression, and the information from the resume is parsed using the pyresparser module, which was created using the nltk and spaCy modules in Python. 
